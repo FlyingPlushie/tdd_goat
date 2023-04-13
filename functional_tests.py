@@ -1,4 +1,4 @@
-from selenium import webdriver #type: ignore # Pylance can't find selenium and makes everything yellow...
+from selenium import webdriver
 import unittest
 
 class NewVisitorTest(unittest.TestCase):
