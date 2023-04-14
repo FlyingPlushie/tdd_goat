@@ -12,6 +12,10 @@ Use python and make sure you're in the right folder (look for `manage.py` that D
 
 `python manage.py runserver`
 
+### Running Unit Tests
+
+`python manage.py test`
+
 ## Functional Tests
 
 Functional tests let us see how te application *functions* from the user's point of view, hence the name &ndash; functional tests.
@@ -38,9 +42,6 @@ Django encourages you to structure your code into *apps* &ndash; one project can
 
 ## Unit Tests
 
-### Running Unit Tests
-
-`python manage.py test`
 
 Real-world boundaries between functional tests and unit tests can get a bit blurry, but the main distinction is that:
 
