@@ -42,7 +42,6 @@ Django encourages you to structure your code into *apps* &ndash; one project can
 
 ## Unit Tests
 
-
 Real-world boundaries between functional tests and unit tests can get a bit blurry, but the main distinction is that:
 
 1. functional tests test the application from the outside &ndash; from the outlook of the user,
@@ -71,3 +70,8 @@ The unit test is driven by the functional test, but it's also much closer to the
 3. Repeat.
 
 The more nervous we are about getting our code right, the smaller and more minimal we make each code change &ndash; the idea is to be absolutely sure that each bit of code is justified by a test.
+
+## In Case of Doubt &ndash; Programming is Like Pulling a Bucket of Water Up from a Well 
+
+*TDD is a **discipline**, and that means it's not something that comes naturally; because many of the payoffs aren't immediate but only come in the longer term, you have to force yourself to do it in the moment. That's what the image of the Testing Goat is supposed to illustrate &ndash; you need to be a bit bloody-minded about it.*
+
