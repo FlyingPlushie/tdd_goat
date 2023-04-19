@@ -71,7 +71,15 @@ The unit test is driven by the functional test, but it's also much closer to the
 
 The more nervous we are about getting our code right, the smaller and more minimal we make each code change &ndash; the idea is to be absolutely sure that each bit of code is justified by a test.
 
-## In Case of Doubt &ndash; Programming is Like Pulling a Bucket of Water Up from a Well 
+## In Case of Doubt &ndash; Programming is Like Pulling a Bucket of Water Up from a Well
 
 *TDD is a **discipline**, and that means it's not something that comes naturally; because many of the payoffs aren't immediate but only come in the longer term, you have to force yourself to do it in the moment. That's what the image of the Testing Goat is supposed to illustrate &ndash; you need to be a bit bloody-minded about it.*
 
+## Don't Test Constants
+
+Unit tests are about testing logic, flow control and configuration. Making assertions about certain strings (HTML much?) isn't doing that.
+
+## Refactoring &ndash; Improving the Code Without Changing Its Functionality
+
+Rule #1: You can't refactor without tests
+Rule #2: When refactoring, work on either the code or the tests, but not both at once.
